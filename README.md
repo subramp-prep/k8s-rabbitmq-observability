@@ -5,11 +5,13 @@ for a message broker workload.
 
 ## Architecture
 
+```
 [Producer] → [RabbitMQ on K8s] → [Consumer]
-↓
+    ↓
 [Prometheus]
-↓
+    ↓
 [Grafana Dashboard]
+```
 
 ## Stack
 - **Kubernetes** — minikube (local cluster)
